@@ -1,0 +1,60 @@
+{
+  "friendly_name": "Terminal",
+  "image_src": "terminal.png",
+  "description": "Xfce Terminal is a lightweight and easy to use terminal emulator application with many advanced features including drop down, tabs, unlimited scrolling, full colors, fonts, transparent backgrounds, and more.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "kasm",
+    "environment": {
+      "TERMINAL_ARGS": "--fullscreen --hide-borders --hide-menubar --zoom=-1 --hide-scrollbar"
+    }
+  },
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "kasmweb/terminal:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 2797,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily",
+        "1.16.1",
+        "1.16.1-rolling-weekly",
+        "1.16.1-rolling-daily",
+        "1.17.0-rolling-weekly"
+      ]
+    },
+    {
+      "version": "1.17.0",
+      "image": "kasmweb/terminal:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 3114,
+      "available_tags": [
+        "develop",
+        "1.17.0",
+        "1.17.0-rolling-weekly",
+        "1.17.0-rolling-daily"
+      ]
+    },
+    {
+      "version": "1.18.0",
+      "image": "kasmweb/terminal:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3114,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
