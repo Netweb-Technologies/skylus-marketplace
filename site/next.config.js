@@ -7,7 +7,7 @@ const nextConfig = {
     name: 'Skylus Workspaces',
     description: 'The Marketplace for Skylus Workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://netweb-technologies.github.io/skylus-marketplace/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
