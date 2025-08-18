@@ -1,0 +1,132 @@
+{
+  "friendly_name": "CUDA 12.6 Enabled Jammy",
+  "image_src": "ubuntu.png",
+  "description": "NVIDIA CUDA enabled Jammy desktop",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 1,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://kcr.kasmweb.com/v1/",
+  "categories": [
+    "Machine Learning"
+  ],
+  "require_gpu": true,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {},
+  "launch_config": {
+    "file_mapping": {
+      "destination": "/tmp/launch_selections.json"
+    },
+    "launch_form": [
+      {
+        "key": "python_version",
+        "label": "Python Version",
+        "value": null,
+        "allow_saving": true,
+        "required": false,
+        "placeholder": null,
+        "help": "Version of python to configure for this session",
+        "input_type": "select",
+        "options": [
+          {
+            "value": "",
+            "label": "None"
+          },
+          {
+            "value": "3.10",
+            "label": "3.10"
+          },
+          {
+            "value": "3.11",
+            "label": "3.11"
+          },
+          {
+            "value": "3.12",
+            "label": "3.12"
+          },
+          {
+            "value": "3.13",
+            "label": "3.13"
+          },
+          {
+            "value": "3.14",
+            "label": "3.14"
+          }
+        ],
+        "validator_regex": null,
+        "validator_regex_description": null,
+        "display_if": null
+      },
+      {
+        "key": "ml_framework",
+        "label": "Library",
+        "value": null,
+        "allow_saving": true,
+        "required": false,
+        "placeholder": null,
+        "help": "Library to install",
+        "input_type": "select",
+        "options": [
+          {
+            "value": "",
+            "label": "None"
+          },
+          {
+            "value": "TENSORFLOW",
+            "label": "TensorFlow"
+          },
+          {
+            "value": "PYTORCH",
+            "label": "PyTorch"
+          }
+        ],
+        "validator_regex": null,
+        "validator_regex_description": null,
+        "display_if": null
+      },
+      {
+        "key": "pip_packages",
+        "label": "Extra pip packages",
+        "value": null,
+        "allow_saving": true,
+        "required": false,
+        "placeholder": null,
+        "help": "Any extra pip packages (separated with a space)",
+        "input_type": "text",
+        "options": [],
+        "validator_regex": null,
+        "validator_regex_description": null,
+        "display_if": null
+      }
+    ]
+  },
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "kcr.kasmweb.com/kasmweb/ubuntu-jammy-nvidia:develop",
+      "uncompressed_size_mb": 5415,
+      "available_tags": [
+        "develop",
+        "1.17.0-rolling-weekly"
+      ]
+    },
+    {
+      "version": "1.17.0",
+      "image": "kcr.kasmweb.com/kasmweb/ubuntu-jammy-nvidia:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 5415,
+      "available_tags": [
+        "develop",
+        "1.17.0",
+        "1.17.0-rolling-weekly",
+        "1.17.0-rolling-daily"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "friendly_name": "Orca Slicer",
+  "image_src": "orcaslicer.png",
+  "description": "Orca Slicer is an open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community.",
+  "name": null,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://ghcr.io/",
+  "categories": [
+    "Productivity",
+    "Multimedia"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000,
+    "environment": {
+      "HOME": "/home/kasm-user"
+    }
+  },
+  "exec_config": {},
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "uncompressed_size_mb": 3220
+    },
+    {
+      "version": "1.17.x",
+      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "uncompressed_size_mb": 3220
+    },
+    {
+      "version": "1.18.x",
+      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "uncompressed_size_mb": 3220
+    }
+  ]
+}
