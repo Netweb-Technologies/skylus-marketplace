@@ -22,6 +22,21 @@
   ],
   "compatibility": [
     {
+      "version": "1.16.x",
+      "image": "harbor.local/skylus-workspaces/core-fedora-39:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 6999,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily",
+        "1.16.1",
+        "1.16.1-rolling-weekly",
+        "1.16.1-rolling-daily",
+        "1.17.0-rolling-weekly"
+      ]
+    },
+    {
       "version": "1.17.0",
       "image": "harbor.local/skylus-workspaces/core-fedora-39:1.17.0-rolling-daily",
       "uncompressed_size_mb": 8433,
@@ -30,6 +45,14 @@
         "1.17.0",
         "1.17.0-rolling-weekly",
         "1.17.0-rolling-daily"
+      ]
+    },
+    {
+      "version": "1.18.0",
+      "image": "harbor.local/skylus-workspaces/core-fedora-39:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 8433,
+      "available_tags": [
+        "develop"
       ]
     }
   ]
