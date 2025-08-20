@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://kcr.kasmweb.com/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Productivity"
   ],
@@ -20,7 +20,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kcr.kasmweb.com/kasmweb/filezilla:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/filezilla:1.16.1-rolling-daily",
       "uncompressed_size_mb": 2375,
       "available_tags": [
         "develop",
@@ -35,7 +35,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kcr.kasmweb.com/kasmweb/filezilla:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/filezilla:1.17.0-rolling-daily",
       "uncompressed_size_mb": 2591,
       "available_tags": [
         "develop",
