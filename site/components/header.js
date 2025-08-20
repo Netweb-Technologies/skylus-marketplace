@@ -23,7 +23,7 @@ export default function Header({ searchText, changeSearch }) {
       <Bubbles />
       <div className='relative z-10'>
         <div className="text-3xl">{process.env.name}</div>
-        <div className="text-sm uppercase w-full flex justify-between">
+        {/* <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>
           <span className='opacity-70'>o</span>
           <span className='opacity-70'>r</span>
@@ -42,7 +42,7 @@ export default function Header({ searchText, changeSearch }) {
           <span className='opacity-40'>t</span>
           <span className='opacity-40'>r</span>
           <span className='opacity-40'>y</span>
-        </div>
+        </div> */}
       </div>
       <nav className='relative z-10 mx-12'>
         <a href={getLink("/")} className={'p-4 inline-block rounded-full border border-solid' + (router.pathname == "/" ? ' border-white/30' : ' border-transparent')}>Library</a>
