@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [],
   "require_gpu": false,
   "enabled": true,
@@ -24,7 +24,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kasmweb/terminal:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/terminal:1.16.1-rolling-daily",
       "uncompressed_size_mb": 2797,
       "available_tags": [
         "develop",
@@ -39,7 +39,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kasmweb/terminal:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/terminal:1.17.0-rolling-daily",
       "uncompressed_size_mb": 3114,
       "available_tags": [
         "develop",
@@ -50,7 +50,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/terminal:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/terminal:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3114,
       "available_tags": [
         "develop"

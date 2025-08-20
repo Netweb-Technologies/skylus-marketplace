@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Multimedia"
   ],
@@ -20,7 +20,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kasmweb/pinta:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/pinta:1.16.1-rolling-daily",
       "uncompressed_size_mb": 2409,
       "available_tags": [
         "develop",
@@ -35,7 +35,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kasmweb/pinta:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/pinta:1.17.0-rolling-daily",
       "uncompressed_size_mb": 3352,
       "available_tags": [
         "develop",
@@ -46,7 +46,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/pinta:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/pinta:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3352,
       "available_tags": [
         "develop"

@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Productivity",
     "Communication"
@@ -21,7 +21,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kasmweb/thunderbird:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/thunderbird:1.16.1-rolling-daily",
       "uncompressed_size_mb": 2560,
       "available_tags": [
         "develop",
@@ -36,7 +36,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kasmweb/thunderbird:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/thunderbird:1.17.0-rolling-daily",
       "uncompressed_size_mb": 2833,
       "available_tags": [
         "develop",
@@ -47,7 +47,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/thunderbird:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/thunderbird:1.18.0-rolling-daily",
       "uncompressed_size_mb": 2833,
       "available_tags": [
         "develop"

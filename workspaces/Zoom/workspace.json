@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Communication"
   ],
@@ -25,7 +25,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kasmweb/zoom:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/zoom:1.16.1-rolling-daily",
       "uncompressed_size_mb": 3791,
       "available_tags": [
         "develop",
@@ -40,7 +40,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kasmweb/zoom:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/zoom:1.17.0-rolling-daily",
       "uncompressed_size_mb": 3893,
       "available_tags": [
         "develop",
@@ -51,7 +51,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/zoom:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/zoom:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3893,
       "available_tags": [
         "develop"

@@ -237,7 +237,7 @@ export default function New({ workspace }) {
   return (
     <div className="">
       <Head>
-        <title>Kasm Workspaces</title>
+        <title>Skylus Workspaces</title>
         <meta name="description" content="List of workspaces for Kasm Webspaces" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
