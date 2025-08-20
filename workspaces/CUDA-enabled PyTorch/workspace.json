@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 1,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://kcr.kasmweb.com/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Machine Learning"
   ],
@@ -23,7 +23,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kcr.kasmweb.com/kasmweb/ubuntu-noble-nvidia-pytorch:develop",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-nvidia-pytorch:develop",
       "uncompressed_size_mb": 5415,
       "available_tags": [
         "develop",
@@ -32,7 +32,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kcr.kasmweb.com/kasmweb/ubuntu-noble-nvidia-pytorch:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-nvidia-pytorch:1.17.0-rolling-daily",
       "uncompressed_size_mb": 5415,
       "available_tags": [
         "develop",
