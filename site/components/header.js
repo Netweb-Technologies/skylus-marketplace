@@ -50,14 +50,14 @@ export default function Header({ searchText, changeSearch }) {
       </nav>
       <div className="grow flex justify-center relative z-10">
         <div className='bg-black/10 shadow border border-1 border-white/30 rounded flex w-full max-w-md'>
-          <input
+          {/* <input
             name="search"
             className='bg-transparent shadow-inner text-lg font-light w-full p-4 placeholder:text-white/40'
             placeholder='Search for workspace'
             type="text"
             value={searchText}
             onChange={changeSearch}
-          />
+          /> */}
 
         </div>
 
