@@ -1,6 +1,6 @@
 {
   "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "image_src": "chromium.png",
   "run_config": {
     "hostname": "kasm"
@@ -24,7 +24,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "kasmweb/chromium:develop",
+      "image": "harbor.local/skylus-workspaces/chromium:develop",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "develop"

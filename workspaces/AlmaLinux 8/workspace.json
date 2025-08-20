@@ -6,7 +6,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://index.docker.io/v1/",
+  "docker_registry": "https://harbor.local",
   "categories": [
     "Desktop",
     "Productivity",
@@ -22,7 +22,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "kasmweb/almalinux-8-desktop:1.16.1-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/almalinux-8-desktop:1.16.1-rolling-daily",
       "uncompressed_size_mb": 6528,
       "available_tags": [
         "develop",
@@ -37,7 +37,7 @@
     },
     {
       "version": "1.17.0",
-      "image": "kasmweb/almalinux-8-desktop:1.17.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/almalinux-8-desktop:1.17.0-rolling-daily",
       "uncompressed_size_mb": 9700,
       "available_tags": [
         "develop",
@@ -48,7 +48,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/almalinux-8-desktop:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/almalinux-8-desktop:1.18.0-rolling-daily",
       "uncompressed_size_mb": 9700,
       "available_tags": [
         "develop"
