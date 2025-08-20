@@ -2,7 +2,7 @@
   <br>
   <img width="150" src="https://user-images.githubusercontent.com/5698566/230345149-ef757e51-6eb9-479d-94f5-a13e4ad33b03.png">
   <br>
-  Kasm Workspaces Registry
+  Skylus Workspaces Registry
   <br>
 </h1>
 
@@ -332,6 +332,3 @@ The tag below will hopefully make it easier for people to find your Workspace Re
 
 If you are the one doing the searching, click on the **site** folder, then click on **next.config.js** and the url can be found under **env.listUrl**
 
-![search-600](https://user-images.githubusercontent.com/5698566/230614274-2976b4d7-074f-4e6d-9e58-e4d2512a3d2a.gif)
-
-KASM-REGISTRY-DISCOVERY-IDENTIFIER
