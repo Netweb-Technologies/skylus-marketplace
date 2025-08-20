@@ -61,9 +61,9 @@ export default function Home({ searchText }) {
   return (
     <div className="">
       <Head>
-        <title>Kasm Workspaces</title>
-        <meta name="description" content="List of workspaces for Kasm Webspaces" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Skylus Harbor</title>
+        <meta name="description" content="List of workspaces for Skylus Webspaces" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
 
