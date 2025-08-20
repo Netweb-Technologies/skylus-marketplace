@@ -74,7 +74,7 @@ export default function Home({ searchText }) {
             <span className='text-white p-3 py-1 flex bg-[#2980b9]'>{filteredworkspaces && filteredworkspaces.length}</span>
           </span>
           <span className='flex items-center text-lg bg-slate-100/90 rounded overflow-hidden shadow'>
-            <span className='flex px-3 text-xs opacity-100'>Kasm Version</span>
+            <span className='flex px-3 text-xs opacity-100'>Skylus Workspaces Version</span>
             <span className='text-white gap-3 p-3 py-1 flex items-center bg-[#2980b9]'>{versions && versions.map((v) => (
               <div className={'cursor-pointer ' + (+v === +version ? 'text-white' : 'text-white/50 text-xs')} key={v} onClick={() => updateVersion(v)}>{v}</div>
             ))}</span>
