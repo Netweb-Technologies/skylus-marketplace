@@ -4,11 +4,11 @@ const nextConfig = {
   output: 'export',
   distDir: '../public',
   env: {
-    name: 'Skylus Workspaces',
+    name: 'Skylus Workspaces Marketplace',
     description: 'The Marketplace for Skylus Workspaces.',
     icon: '/img/logo.svg',
     listUrl: 'https://netweb-technologies.github.io/skylus-marketplace/',
-    contactUrl: 'https://kasmweb.com/support',
+    contactUrl: 'https://www.netwebindia.com/contact.php',
   },
   reactStrictMode: true,
   basePath: '/skylus-marketplace/1.0',
