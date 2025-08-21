@@ -3,7 +3,7 @@
   "docker_registry": "https://harbor.local",
   "image_src": "chromium.png",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "skylus"
   },
   "exec_config": {
     "go": {

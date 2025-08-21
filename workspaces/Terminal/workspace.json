@@ -12,7 +12,7 @@
   "enabled": true,
   "image_type": "Container",
   "run_config": {
-    "hostname": "kasm",
+    "hostname": "skylus",
     "environment": {
       "TERMINAL_ARGS": "--fullscreen --hide-borders --hide-menubar --zoom=-1 --hide-scrollbar"
     }

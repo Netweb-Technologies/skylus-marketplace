@@ -14,7 +14,7 @@
   "enabled": true,
   "image_type": "Container",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "skylus"
   },
   "architecture": [
     "amd64"
