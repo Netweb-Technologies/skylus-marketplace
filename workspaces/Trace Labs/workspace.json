@@ -1,7 +1,7 @@
 {
   "friendly_name": "Trace Labs",
   "image_src": "tracelabs.svg",
-  "description": "Trace Labs OSINT Image for Kasm Workspaces",
+  "description": "Trace Labs OSINT Image for skylus Workspaces",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,

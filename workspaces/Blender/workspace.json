@@ -46,7 +46,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/blender:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/blender:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3935,
       "available_tags": [
         "develop"

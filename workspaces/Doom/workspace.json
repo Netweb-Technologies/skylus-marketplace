@@ -46,7 +46,7 @@
     },
     {
       "version": "1.18.0",
-      "image": "kasmweb/doom:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/doom:1.18.0-rolling-daily",
       "uncompressed_size_mb": 2624,
       "available_tags": [
         "develop"

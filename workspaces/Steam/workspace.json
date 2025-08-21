@@ -19,7 +19,7 @@
     ],
     "privileged": true
   },
-  "notes": "The Kasm Steam Workspace is highly experimental.\n\nNOTE: When using NVIDIA, 3D acceleration is provided by VirtualGL, if a game fails to run look into specific launch options that might be needed to leverage VirtualGL.\n",
+  "notes": "The skylus Steam Workspace is highly experimental.\n\nNOTE: When using NVIDIA, 3D acceleration is provided by VirtualGL, if a game fails to run look into specific launch options that might be needed to leverage VirtualGL.\n",
   "architecture": [
     "amd64"
   ],
