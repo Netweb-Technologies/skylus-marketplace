@@ -237,9 +237,9 @@ export default function New({ workspace }) {
   return (
     <div className="">
       <Head>
-        <title>Skylus Workspaces</title>
-        <meta name="description" content="List of workspaces for Kasm Webspaces" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Skylus harbor</title>
+        <meta name="description" content="List of workspaces for skylus Webspaces" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
       <div className='flex flex-col lg:flex-row w-full my-20 max-w-6xl text-sm rounded-xl overflow-hidden mx-auto'>
         <div className='w-full lg:w-1/2 p-16 bg-slate-300'>
