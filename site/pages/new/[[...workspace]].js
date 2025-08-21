@@ -273,7 +273,7 @@ export default function New({ workspace }) {
 
             <label className='mb-2 font-medium'>Docker Image</label>
             <input ref={name} name="name" onChange={handleChange} className='mb-2 p-2 rounded-lg bg-slate-100 border border-solid border-slate-400' />
-            <p className='mb-6 opacity-70'>The docker image to use, i.e. <code className='text-xs p-1 px-2 rounded bg-white/40'>kasmweb/filezilla:develop</code></p>
+            <p className='mb-6 opacity-70'>The docker image to use, i.e. <code className='text-xs p-1 px-2 rounded bg-white/40'>skylus-workspaces/filezilla:1.17.0-rolling-daily</code></p>
 
             <label className='mb-2 font-medium'>Architecture</label>
             <Select
