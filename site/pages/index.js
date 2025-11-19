@@ -80,6 +80,7 @@ export default function Home({ searchText }) {
             ))}</span>
           </span>
         </h1>
+        {/* added comment */}
         <div className="flex flex-wrap gap-1 justify-center">
         {filteredworkspaces && filteredworkspaces.length > 0 && filteredworkspaces.map(function (workspace, i) {
             return <Workspace key={workspace.sha} workspace={workspace} />
