@@ -42,7 +42,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/alpine-321-desktop:1.18.0-rolling-daily",
       "uncompressed_size_mb": 5219,
       "available_tags": [

@@ -64,7 +64,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/redroid:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3897,
       "available_tags": [

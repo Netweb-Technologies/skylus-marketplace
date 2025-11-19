@@ -46,7 +46,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/tracelabs:1.18.0-rolling-daily",
       "uncompressed_size_mb": 13338,
       "available_tags": [
