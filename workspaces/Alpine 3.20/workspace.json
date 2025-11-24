@@ -49,10 +49,13 @@
     },
     {
       "version": "1.18.x",
-      "image": "harbor.local/skylus-workspaces/alpine-320-desktop:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/alpine-320-desktop:1.18.0",
       "uncompressed_size_mb": 5024,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
       ]
     }
   ]

@@ -1,0 +1,34 @@
+{
+  "friendly_name": "SuperTuxKart",
+  "image_src": "super-tux-kart.png",
+  "description": "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://harbor.local",
+  "categories": [
+    "Games"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "notes": "SuperTuxKart requires a GPU for best performance",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/super-tux-kart:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3310,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
+    }
+  ]
+}

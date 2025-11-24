@@ -127,6 +127,17 @@
         "1.17.0-rolling-weekly",
         "1.17.0-rolling-daily"
       ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-nvidia:1.18.0",
+      "uncompressed_size_mb": 5415,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
     }
   ]
 }

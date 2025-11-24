@@ -42,8 +42,8 @@
       ]
     },
     {
-      "version": "1.18.0",
-      "image": "harbor.local/skylus-workspaces/ubuntu-noble-anythingllm:1.18.0-rolling-daily",
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-anythingllm:1.17.0-rolling-daily",
       "uncompressed_size_mb": 5415,
       "available_tags": [
         "develop",

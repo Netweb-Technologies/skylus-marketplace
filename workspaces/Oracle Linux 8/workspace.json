@@ -47,11 +47,14 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/oracle-8-desktop:1.17.0-rolling-daily",
       "uncompressed_size_mb": 9779,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
       ]
     }
   ]

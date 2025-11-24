@@ -46,10 +46,13 @@
     },
     {
       "version": "1.18.x",
-      "image": "harbor.local/skylus-workspaces/blender:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/blender:1.18.0",
       "uncompressed_size_mb": 3935,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
       ]
     }
   ]

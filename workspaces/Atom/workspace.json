@@ -43,13 +43,13 @@
         "1.17.0-rolling-daily"
       ]
     },
-    {
-      "version": "1.18.0",
-      "image": "harbor.local/skylus-workspaces/atom:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 0,
-      "available_tags": [
-        "develop"
-      ]
-    }
+    // {
+    //   "version": "1.18.x",
+    //   "image": "harbor.local/skylus-workspaces/atom:1.18.0-rolling-daily",
+    //   "uncompressed_size_mb": 0,
+    //   "available_tags": [
+    //     "develop"
+    //   ]
+    // }
   ]
 }

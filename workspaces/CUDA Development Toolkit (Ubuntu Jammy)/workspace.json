@@ -39,9 +39,9 @@
       ]
     },
     {
-      "version": "1.18.0",
-      "image": "harbor.local/skylus-workspaces/core-cuda-jammy:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 0,
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/core-cuda-jammy:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 11700,
       "available_tags": [
         "develop"
       ]
