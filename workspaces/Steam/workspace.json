@@ -51,7 +51,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/steam:1.18.0-rolling-daily",
       "uncompressed_size_mb": 2823,
       "available_tags": [

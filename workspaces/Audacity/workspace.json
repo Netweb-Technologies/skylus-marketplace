@@ -45,7 +45,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/audacity:1.18.0-rolling-daily",
       "uncompressed_size_mb": 2655,
       "available_tags": [

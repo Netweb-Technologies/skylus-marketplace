@@ -44,7 +44,7 @@
       ]
     },
     {
-      "version": "1.18.0",
+      "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/insomnia:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3025,
       "available_tags": [
