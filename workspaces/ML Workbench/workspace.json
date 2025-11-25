@@ -1,0 +1,39 @@
+{
+  "friendly_name": "ML Workbench",
+  "image_src": "ml-workbench.png",
+  "description": "ML Workbench is an integrated environment providing all the tools required for the entire machine learning lifecycle, from building and training models to packaging and deploying complete ML flows.",
+  "cores": 4,
+  "memory": 8192,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://harbor.local",
+  "categories": [
+    "ML",
+    "Productivity",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "skylus"
+  },
+  "notes": "",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-ml-engineering:1.18.0",
+      "uncompressed_size_mb": 8572,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
+    }
+  ]
+}

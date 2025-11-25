@@ -45,7 +45,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "harbor.local/skylus-workspaces/atom:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/atom:1.17.0-rolling-daily",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",
