@@ -48,7 +48,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "harbor.local/skylus-workspaces/almalinux-8-desktop:1.18.0-rolling-daily",
+      "image": "harbor.local/skylus-workspaces/almalinux-8-desktop:1.18.0",
       "uncompressed_size_mb": 9700,
       "available_tags": [
         "develop",
