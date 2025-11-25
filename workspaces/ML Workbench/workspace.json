@@ -27,7 +27,7 @@
     {
       "version": "1.18.x",
       "image": "harbor.local/skylus-workspaces/ubuntu-noble-ml-engineering:1.18.0",
-      "uncompressed_size_mb": 8572,
+      "uncompressed_size_mb": 13312,
       "available_tags": [
         "develop",
         "1.18.0",

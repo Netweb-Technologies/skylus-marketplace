@@ -48,7 +48,10 @@
       "image": "harbor.local/skylus-workspaces/postman:1.18.0-rolling-daily",
       "uncompressed_size_mb": 3369,
       "available_tags": [
-        "develop"
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
       ]
     }
   ]

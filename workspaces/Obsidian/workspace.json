@@ -1,0 +1,33 @@
+{
+  "friendly_name": "Obsidian",
+  "image_src": "obsidian.png",
+  "description": "Obsidian is a note-taking app that lets you organize and connect your ideas like a personal knowledge base.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://harbor.local",
+  "categories": [
+    "Productivity"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/obsidian:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3421,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
+    }
+  ]
+}
