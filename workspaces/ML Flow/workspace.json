@@ -1,0 +1,38 @@
+{
+  "friendly_name": "ML Flow",
+  "image_src": "ml-flow.png",
+  "description": "MLflow is an open-source platform designed to manage the end-to-end machine learning lifecycle, including experimentation, reproducibility, deployment, and a central model registry",
+  "cores": 4,
+  "memory": 4096,
+  "gpu_count": 1,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://harbor.local",
+  "categories": [
+    "Development",
+    "Machine Learning",
+    "MLOps"
+  ],
+  "require_gpu": true,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "skylus",
+    "privileged": true
+  },
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "harbor.local/skylus-workspaces/ml-flow-jammy:1.18.0",
+      "uncompressed_size_mb": 3593,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
+    }
+  ]
+}
