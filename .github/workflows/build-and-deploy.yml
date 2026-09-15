@@ -9,7 +9,12 @@ permissions:
   contents: write
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on:
+    - self-hosted
+    - linux
+    - x64
+    - skylus-marketplace
+
 
     steps:
       - uses: actions/checkout@v3
