@@ -10,7 +10,6 @@ permissions:
 jobs:
   build:
     runs-on:
-    runs-on:
     - self-hosted
     - linux
     - x64
