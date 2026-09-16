@@ -28,6 +28,17 @@
         "1.18.0-rolling-weekly",
         "1.18.0-rolling-daily"
       ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "harbor.local/skylus-workspaces/obsidian:1.19.0",
+      "uncompressed_size_mb": 3421,
+      "available_tags": [
+        "develop",
+        "1.19.0",
+        "1.19.0-rolling-weekly",
+        "1.19.0-rolling-daily"
+      ]
     }
   ]
 }
