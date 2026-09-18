@@ -1,0 +1,58 @@
+{
+  "friendly_name": "Gemini CLI",
+  "image_src": "gemini.png",
+  "description": "Google's Gemini AI models accessible directly from your command line",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "harbor.local",
+  "categories": [
+    "AI Tool"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "skylus"
+  },
+  "exec_config": {},
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "launch_config": {
+    "file_mapping": {
+      "destination": "/tmp/launch_selections.json"
+    },
+    "launch_form": [
+      {
+        "key": "gemini_api_key",
+        "help": "Your Google Gemini API key if you want to use API key authentication (Optional)",
+        "label": "Google Gemini API Key",
+        "value": null,
+        "options": [],
+        "required": false,
+        "display_if": null,
+        "input_type": "password",
+        "placeholder": "AIzaSy...",
+        "allow_saving": true,
+        "validator_regex": "^AIza[0-9A-Za-z_-]{35}$",
+        "validator_regex_description": "API key must start with 'AIza' and be 39 characters long"
+      }
+    ]
+  },
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "harbor.local/skylus-workspaces/gemini-cli:1.19.0",
+      "uncompressed_size_mb": 1690,
+      "available_tags": [
+        "develop",
+        "1.19.0",
+        "1.19.0-rolling-weekly",
+        "1.19.0-rolling-daily"
+      ]
+    }
+  ]
+}

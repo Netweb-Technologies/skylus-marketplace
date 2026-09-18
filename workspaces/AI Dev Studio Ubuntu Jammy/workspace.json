@@ -1,0 +1,38 @@
+{
+  "friendly_name": "AI Dev Studio Ubuntu Jammy",
+  "image_src": "ai-dev-studio.png",
+  "description": "Complete AI development desktop with Cursor IDE, Claude Code, Gemini, and Codex CLI tools for AI-powered coding",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "harbor.local/",
+  "categories": [
+    "AI Tool",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "skylus"
+  },
+  "exec_config": {},
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "harbor.local/skylus-workspaces/noble-desktop-ai-dev:1.19.0",
+      "uncompressed_size_mb": 2503,
+      "available_tags": [
+        "develop",
+        "1.19.0",
+        "1.19.0-rolling-weekly",
+        "1.19.0-rolling-daily"
+      ]
+    }
+  ]
+}
