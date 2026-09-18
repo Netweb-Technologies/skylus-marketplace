@@ -1,0 +1,76 @@
+AlmaLinux 8|harbor.local/skylus-workspaces/almalinux-8-desktop:1.18.0
+AlmaLinux 9|harbor.local/skylus-workspaces/almalinux-9-desktop:1.18.0
+Alpine 3.19|harbor.local/skylus-workspaces/alpine-319-desktop:1.18.0-rolling-daily
+Alpine 3.20|harbor.local/skylus-workspaces/alpine-320-desktop:1.18.0-rolling-daily
+Alpine 3.21|harbor.local/skylus-workspaces/alpine-321-desktop:1.18.0-rolling-daily
+AnythingLLM|harbor.local/skylus-workspaces/ubuntu-noble-anythingllm:1.18.0-rolling-daily
+Atom|harbor.local/skylus-workspaces/atom:1.17.0-rolling-daily
+Audacity|harbor.local/skylus-workspaces/audacity:1.18.0-rolling-daily
+Blender|harbor.local/skylus-workspaces/blender:1.18.0-rolling-daily
+Brave|harbor.local/skylus-workspaces/brave:1.18.0-rolling-daily
+Chrome|harbor.local/skylus-workspaces/chrome:1.18.0-rolling-daily
+CUDA Development Toolkit (Ubuntu Jammy)|harbor.local/skylus-workspaces/core-cuda-jammy:1.18.0-rolling-daily
+Cyberbro|harbor.local/skylus-workspaces/cyberbro:1.18.0-rolling-daily
+Debian Bookworm|harbor.local/skylus-workspaces/debian-bookworm-desktop:1.18.0-rolling-daily
+Debian Bullseye|harbor.local/skylus-workspaces/debian-bullseye-desktop:1.18.0-rolling-daily
+Debian Trixie|harbor.local/skylus-workspaces/debian-trixie-desktop:1.18.0-rolling-daily
+Deluge|harbor.local/skylus-workspaces/deluge:1.18.0-rolling-daily
+Discord|harbor.local/skylus-workspaces/discord:1.18.0-rolling-daily
+Docker Rootless Ubuntu Jammy|harbor.local/skylus-workspaces/ubuntu-jammy-dind-rootless:1.18.0-rolling-daily
+Docker Rootless Ubuntu Noble|harbor.local/skylus-workspaces/ubuntu-noble-dind-rootless:1.18.0-rolling-daily
+Docker Ubuntu Jammy|harbor.local/skylus-workspaces/ubuntu-jammy-dind:1.18.0-rolling-daily
+Doom|harbor.local/skylus-workspaces/doom:1.18.0-rolling-daily
+Easy Diffusion|harbor.local/skylus-workspaces/ubuntu-noble-easydiffusion:1.18.0
+Edge|harbor.local/skylus-workspaces/edge:1.18.0-rolling-daily
+Fedora 40|harbor.local/skylus-workspaces/fedora-40-desktop:1.18.0-rolling-daily
+Fedora 41|harbor.local/skylus-workspaces/fedora-41-desktop:1.18.0-rolling-daily
+FileZilla|harbor.local/skylus-workspaces/filezilla:1.18.0-rolling-daily
+Firefox|harbor.local/skylus-workspaces/firefox:1.18.0-rolling-daily
+Forensic OSINT|harbor.local/skylus-workspaces/forensic-osint:1.18.0-rolling-daily
+Gimp|harbor.local/skylus-workspaces/gimp:1.18.0-rolling-daily
+Hunchly|harbor.local/skylus-workspaces/hunchly:1.18.0-rolling-daily
+Inkscape|harbor.local/skylus-workspaces/inkscape:1.18.0-rolling-daily
+Insomnia|harbor.local/skylus-workspaces/insomnia:1.18.0-rolling-daily
+Kali Linux|harbor.local/skylus-workspaces/kali-rolling-desktop:1.18.0-rolling-daily
+KasmOS|kasmweb/kasmos-desktop:1.18.0-rolling-daily
+Libre Office|harbor.local/skylus-workspaces/libre-office:1.18.0-rolling-daily
+Maltego|harbor.local/skylus-workspaces/maltego:1.18.0-rolling-daily
+Minetest|harbor.local/skylus-workspaces/minetest:1.18.0-rolling-daily
+ML Flow|harbor.local/skylus-workspaces/ml-flow-jammy:1.18.0
+ML Workbench|harbor.local/skylus-workspaces/ubuntu-noble-ml-engineering:1.18.0
+Nessus|harbor.local/skylus-workspaces/nessus:1.18.0-rolling-daily
+Obsidian|harbor.local/skylus-workspaces/obsidian:1.18.0-rolling-daily
+Only Office|harbor.local/skylus-workspaces/only-office:1.18.0-rolling-daily
+OpenSUSE Leap 15|harbor.local/skylus-workspaces/opensuse-15-desktop:1.18.0-rolling-daily
+Oracle Linux 8|harbor.local/skylus-workspaces/oracle-8-desktop:1.17.0-rolling-daily
+Oracle Linux 9|harbor.local/skylus-workspaces/oracle-9-desktop:1.18.0-rolling-daily
+Orca Slicer|lscr.io/linuxserver/orcaslicer:latest
+Parrot OS|harbor.local/skylus-workspaces/parrotos-6-desktop:1.18.0-rolling-daily
+Pinta|harbor.local/skylus-workspaces/pinta:1.18.0-rolling-daily
+Postman|harbor.local/skylus-workspaces/postman:1.18.0-rolling-daily
+qBittorrent|harbor.local/skylus-workspaces/qbittorrent:1.18.0-rolling-daily
+Redroid|harbor.local/skylus-workspaces/redroid:1.18.0-rolling-daily
+Remmina|harbor.local/skylus-workspaces/remmina:1.18.0-rolling-daily
+RetroArch|harbor.local/skylus-workspaces/retroarch:1.18.0-rolling-daily
+RHEL 9|harbor.local/skylus-workspaces/rhel-9-desktop:1.18.0-rolling-daily
+Rocky Linux 8|harbor.local/skylus-workspaces/rockylinux-8-desktop:1.18.0-rolling-daily
+Rocky Linux 9|harbor.local/skylus-workspaces/rockylinux-9-desktop:1.18.0-rolling-daily
+Signal|harbor.local/skylus-workspaces/signal:1.18.0-rolling-daily
+Slack|harbor.local/skylus-workspaces/slack:1.18.0-rolling-daily
+Spiderfoot|harbor.local/skylus-workspaces/spiderfoot:1.18.0-rolling-daily
+Steam|harbor.local/skylus-workspaces/steam:1.18.0-rolling-daily
+Sublime Text|harbor.local/skylus-workspaces/sublime-text:1.18.0-rolling-daily
+SuperTuxKart|harbor.local/skylus-workspaces/super-tux-kart:1.18.0-rolling-daily
+Telegram|harbor.local/skylus-workspaces/telegram:1.18.0-rolling-daily
+Terminal|harbor.local/skylus-workspaces/terminal:1.18.0-rolling-daily
+Thunderbird|harbor.local/skylus-workspaces/thunderbird:1.18.0-rolling-daily
+Tor-Browser|harbor.local/skylus-workspaces/tor-browser:1.18.0-rolling-daily
+Trace Labs|harbor.local/skylus-workspaces/tracelabs:1.18.0-rolling-daily
+Ubuntu Jammy|harbor.local/skylus-workspaces/ubuntu-jammy-desktop:1.18.0-rolling-daily
+Ubuntu Jammy VPN|harbor.local/skylus-workspaces/ubuntu-jammy-desktop-vpn:1.18.0-rolling-daily
+Ubuntu Noble|harbor.local/skylus-workspaces/ubuntu-noble-desktop:1.18.0-rolling-daily
+Unity Hub|harbor.local/skylus-workspaces/unityhub:1.18.0-rolling-daily
+Visual Studio Code|harbor.local/skylus-workspaces/vs-code:1.18.0-rolling-daily
+Vivaldi|harbor.local/skylus-workspaces/vivaldi:1.18.0-rolling-daily
+VLC|harbor.local/skylus-workspaces/vlc:1.18.0-rolling-daily
+Zoom|harbor.local/skylus-workspaces/zoom:1.18.0-rolling-daily

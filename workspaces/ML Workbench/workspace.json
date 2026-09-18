@@ -37,13 +37,13 @@
     },
     {
       "version": "1.19.x",
-      "image": "harbor.local/skylus-workspaces/ubuntu-noble-ml-engineering:1.18.0",
+      "image": "harbor.local/skylus-workspaces/ubuntu-noble-ml-engineering:1.19.0",
       "uncompressed_size_mb": 13312,
       "available_tags": [
         "develop",
-        "1.18.0",
-        "1.18.0-rolling-weekly",
-        "1.18.0-rolling-daily"
+        "1.19.0",
+        "1.19.0-rolling-weekly",
+        "1.19.0-rolling-daily"
       ]
     }
   ]
